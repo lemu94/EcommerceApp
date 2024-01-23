@@ -1,0 +1,5 @@
+<div class="row">
+    @for (item of listeItem | async ; track $index) {
+        <app-item class="col-md-4" [item]="item" ></app-item>
+    }
+</div>
